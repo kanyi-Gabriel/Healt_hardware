@@ -1,1 +1,1 @@
-# AI-Powered Health monitoring system hardare componets
+# AI-Powered Health monitoring system hardware componets
