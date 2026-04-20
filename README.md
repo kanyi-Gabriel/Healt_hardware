@@ -3,3 +3,5 @@ The AI-Powered Health Monitoring system is an intelligent system designed to con
 ## Project Oververview
 
 ## Repository structure
+
+## Set up and Installation
