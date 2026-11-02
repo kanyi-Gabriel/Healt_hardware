@@ -4,13 +4,13 @@
 #include "MAX30105.h"
 #include <OneWire.h>
 #include <DallasTemperature.h>
+#include "secrets.h"  // Wi-Fi and server settings (git-ignored)
 
 // --- 1. CONFIGURATION ---
-const char* ssid = "Fayouu";
-const char* password = "Indomitable";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
-// Replace 192.168.X.X with your computer's actual local IP address!
-const char* serverUrl = "http://192.168.100.23:8000/hscan/upload-vitals/";  
+const char* serverUrl = SERVER_URL;
 
 // DS18B20 Configuration
 #define ONE_WIRE_BUS 4  // GPIO4 (D2) - Change if using different pin

@@ -4,11 +4,10 @@
 #include "MAX30105.h"
 
 // --- 1. CONFIGURATION ---
-const char* ssid = "Fayouu";
-const char* password = "Indomitable";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
 
-// Replace 192.168.X.X with your computer's actual local IP address!
-const char* serverUrl = "http://1192.168.100.23:8000/hscan/upload-vitals/"; 
+const char* serverUrl = "http://YOUR_COMPUTER_IP:8000/hscan/upload-vitals/";
 
 MAX30105 particleSensor;
 
